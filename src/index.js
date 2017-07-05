@@ -1,4 +1,4 @@
-import { options } from 'preact';
+import { options } from 'qreact';
 
 
 const OPTS = {
@@ -19,7 +19,7 @@ export default opts => {
 
 	let oldHook = options.vnode;
 	options.vnode = vnode => {
-		let attrs = vnode.attributes;
+		let attrs = vnode.props;
 		if (attrs) {
 			for (let i in attrs) {
 				if (attrs.hasOwnProperty(i) && i.toLowerCase()==='ontouchtap') {

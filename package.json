@@ -1,8 +1,8 @@
 {
-  "name": "preact-tap-event-plugin",
+  "name": "qreact-tap-event-plugin",
   "amdName": "injectTapEventPlugin",
-  "version": "0.1.2",
-  "description": "Use onTouchTap in Preact",
+  "version": "0.0.1",
+  "description": "Use onTouchTap in Qreact, Bases on Preat:preact-tap-event-plugin",
   "main": "dist/preact-tap-event-plugin.js",
   "minified:main": "dist/preact-tap-event-plugin.min.js",
   "jsnext:main": "src/index.js",
